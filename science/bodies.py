@@ -20,16 +20,19 @@ class Body:
     recovery_multiplier: float
 
     def situations(self):
-        products = itertools.product(self.biomes, self.science_multipliers)
-        df = pd.DataFrame(products, columns=['biome', 'situation'])
-        df['multiplier'] = df.situation.map(self.science_multipliers)
-        df[['body', 'has_atmosphere']] = [self.name, self.has_atmosphere]
-        df = df.set_index(['body', 'biome', 'situation'])
+        index = pd.MultiIndex.from_product(
+            [[self.name], self.biomes, self.science_multipliers],
+            names=['body', 'biome', 'situation']
+        )
+        df = pd.DataFrame(index=index)
+        df['multiplier'] = df.index.map(lambda x: self.science_multipliers[x[2]])
+        df['has_atmosphere'] = self.has_atmosphere
         return df
 
 
 def load_bodies(path='default'):
     if path == 'default':
-        with importlib.resources.open_text("science", "bodies.json") as file:
+        path = importlib.resources.open_text("science", "bodies.json")
+        with path as file:
             bodies_list = json.load(file)
     return [Body(**attrs) for attrs in bodies_list]

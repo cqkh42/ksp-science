@@ -1,0 +1,157 @@
+[
+  {
+    "name": "evaReport",
+    "max_value": 8,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "FlyingHigh",
+      "InSpaceHigh"
+    ],
+    "biome_situations": [
+      "SrfLanded",
+      "SrfSplashed",
+      "FlyingLow",
+      "InSpaceLow"
+    ]
+  },
+  {
+    "name": "evaScience",
+    "max_value": 25,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded",
+      "InSpaceLow",
+      "InSpaceHigh"
+    ]
+  },
+  {
+    "name": "crewReport",
+    "max_value": 5,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "FlyingHigh",
+      "InSpaceLow",
+      "InSpaceHigh"
+    ],
+    "biome_situations": [
+      "SrfLanded",
+      "SrfSplashed",
+      "FlyingLow"
+    ]
+  },
+  {
+    "name": "mysteryGoo",
+    "max_value": 13,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "FlyingLow",
+      "FlyingHigh",
+      "InSpaceLow",
+      "InSpaceHigh"
+    ],
+    "biome_situations": [
+      "SrfLanded",
+      "SrfSplashed"
+    ]
+  },
+  {
+    "name": "mobileMaterialsLab",
+    "max_value": 32,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "FlyingLow",
+      "FlyingHigh",
+      "InSpaceLow",
+      "InSpaceHigh"
+    ],
+    "biome_situations": [
+      "SrfLanded",
+      "SrfSplashed"
+    ]
+  },
+  {
+    "name": "temperatureScan",
+    "max_value": 8,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "FlyingHigh",
+      "InSpaceLow",
+      "InSpaceHigh"
+    ],
+    "biome_situations": [
+      "SrfLanded",
+      "SrfSplashed",
+      "FlyingLow"
+    ]
+  },
+  {
+    "name": "barometerScan",
+    "max_value": 12,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "FlyingLow",
+      "FlyingHigh",
+      "InSpaceLow",
+      "InSpaceHigh"
+    ],
+    "biome_situations": [
+      "SrfLanded",
+      "SrfSplashed"
+    ]
+  },
+  {
+    "name": "surfaceSample",
+    "max_value": 40,
+    "requires_atmosphere": false,
+    "biome_situations": [
+      "SrfLanded",
+      "SrfSplashed"
+    ]
+  },
+  {
+    "name": "gravityScan",
+    "max_value": 22,
+    "requires_atmosphere": false,
+    "biome_situations": [
+      "SrfLanded",
+      "SrfSplashed",
+      "InSpaceLow",
+      "InSpaceHigh"
+    ]
+  },
+  {
+    "name": "seismicScan",
+    "max_value": 22,
+    "requires_atmosphere": false,
+    "biome_situations": [
+      "SrfLanded"
+    ]
+  },
+  {
+    "name": "atmosphereAnalysis",
+    "max_value": 24,
+    "requires_atmosphere": true,
+    "biome_situations": [
+      "SrfLanded",
+      "FlyingLow",
+      "FlyingHigh"
+    ]
+  },
+  {
+    "name": "infraredTelescope",
+    "max_value": 22,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "InSpaceHigh"
+    ]
+  },
+  {
+    "name": "magnetometer",
+    "max_value": 45,
+    "requires_atmosphere": false,
+    "global_situations":[
+      "InSpaceLow",
+      "InSpaceHigh"
+    ]
+  }
+]
