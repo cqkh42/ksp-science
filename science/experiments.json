@@ -149,9 +149,315 @@
     "name": "magnetometer",
     "max_value": 45,
     "requires_atmosphere": false,
-    "global_situations":[
+    "global_situations": [
       "InSpaceLow",
       "InSpaceHigh"
     ]
+  },
+  {
+    "name": "ROCScience_KerbinBaobabTree",
+    "max_value": 60,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Kerbin"
+  },
+  {
+    "name": "ROCScience_KerbinGiantQuartz",
+    "max_value": 45,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Kerbin"
+  },
+  {
+    "name": "ROCScience_MunStone",
+    "max_value": 30,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Mun"
+  },
+  {
+    "name": "ROCScience_MunCrater",
+    "max_value": 45,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Mun"
+  },
+  {
+    "name": "ROCScience_MunLargeCrater",
+    "max_value": 60,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Mun"
+  },
+  {
+    "name": "ROCScience_MinmusGreenSandstone",
+    "max_value": 30,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Minmus"
+  },
+  {
+    "name": "ROCScience_MinmusOlivineFormation",
+    "max_value": 60,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Minmus"
+  },
+  {
+    "name": "ROCScience_MohoStone",
+    "max_value": 30,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Moho"
+  },
+  {
+    "name": "ROCScience_MohoWrinkleRidge",
+    "max_value": 60,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Moho"
+  },
+  {
+    "name": "ROCScience_EveVolcanicRock",
+    "max_value": 30,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Eve"
+  },
+  {
+    "name": "ROCScience_EveBasaltFormation",
+    "max_value": 45,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Eve"
+  },
+  {
+    "name": "ROCScience_EvePancakeDome",
+    "max_value": 60,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Eve"
+  },
+  {
+    "name": "ROCScience_GillyRidgeline",
+    "max_value": 45,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Gilly"
+  },
+  {
+    "name": "ROCScience_DunaStone",
+    "max_value": 30,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Duna"
+  },
+  {
+    "name": "ROCScience_DunaBlueberries",
+    "max_value": 30,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Duna"
+  },
+  {
+    "name": "ROCScience_DunaMeteorite",
+    "max_value": 45,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Duna"
+  },
+  {
+    "name": "ROCScience_DunaDune",
+    "max_value": 60,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Duna"
+  },
+  {
+    "name": "ROCScience_IkeDunaEjectaOnIke",
+    "max_value": 30,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Ike"
+  },
+  {
+    "name": "ROCScience_DresMeteorite",
+    "max_value": 45,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Dres"
+  },
+  {
+    "name": "ROCScience_DresCrater",
+    "max_value": 60,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Dres"
+  },
+  {
+    "name": "ROCScience_LaytheStone",
+    "max_value": 30,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Laythe"
+  },
+  {
+    "name": "ROCScience_LaytheBoulder",
+    "max_value": 45,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Laythe"
+  },
+  {
+    "name": "ROCScience_LaytheGeyser",
+    "max_value": 60,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Laythe"
+  },
+  {
+    "name": "ROCScience_VallIceChunk",
+    "max_value": 30,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Vall"
+  },
+  {
+    "name": "ROCScience_VallStone",
+    "max_value": 45,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Vall"
+  },
+  {
+    "name": "ROCScience_VallCryoVolcano",
+    "max_value": 60,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Vall"
+  },
+  {
+    "name": "ROCScience_TyloLightStone",
+    "max_value": 30,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Tylo"
+  },
+  {
+    "name": "ROCScience_TyloDarkBoulder",
+    "max_value": 45,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Tylo"
+  },
+  {
+    "name": "ROCScience_TyloCheckerboard",
+    "max_value": 60,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Tylo"
+  },
+  {
+    "name": "ROCScience_BopGravelPile",
+    "max_value": 45,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Bop"
+  },
+  {
+    "name": "ROCScience_PolYellowStones",
+    "max_value": 30,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Pol"
+  },
+  {
+    "name": "ROCScience_EelooIceChunk",
+    "max_value": 30,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Eeloo"
+  },
+  {
+    "name": "ROCScience_EelooBrownBoulder",
+    "max_value": 45,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Eeloo"
+  },
+  {
+    "name": "ROCScience_EelooEelooBerg",
+    "max_value": 60,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ],
+    "body": "Eeloo"
   }
 ]
