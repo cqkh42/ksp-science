@@ -31,7 +31,8 @@
       "R&DSmallLab",
       "R&DTanks",
       "R&DWindTunnel",
-      "Runway", "SPH",
+      "Runway",
+      "SPH",
       "SPHMainBuilding",
       "SPHRoundTank",
       "SPHTanks",
@@ -49,7 +50,9 @@
       "VABTanks",
       "WoomerangLaunchSite"
     ],
-    "science_multipliers": {"SrfLanded":  0.3},
+    "science_multipliers": {
+      "SrfLanded": 0.3
+    },
     "recovery_multiplier": 0
   },
   {
@@ -106,5 +109,26 @@
       "InSpaceHigh": 2
     },
     "recovery_multiplier": 2
+  },
+  {
+    "name": "Minmus",
+    "has_atmosphere": false,
+    "biomes": [
+      "Flats",
+      "GreatFlats",
+      "GreaterFlats",
+      "Highlands",
+      "LesserFlats",
+      "Lowlands",
+      "Midlands",
+      "Poles",
+      "Slopes"
+    ],
+    "science_multipliers": {
+      "SrfLanded": 5,
+      "InSpaceLow": 4,
+      "InSpaceHigh": 2.5
+    },
+    "recovery_multiplier": 2.5
   }
 ]

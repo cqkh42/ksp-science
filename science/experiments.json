@@ -459,5 +459,29 @@
       "SrfLanded"
     ],
     "body": "Eeloo"
+  },
+  {
+    "name": "deployedGooObservation",
+    "max_value": 45,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ]
+  },
+  {
+    "name": "deployedSeismicSensor",
+    "max_value": 80,
+    "requires_atmosphere": false,
+    "global_situations": [
+      "SrfLanded"
+    ]
+  },
+  {
+    "name": "deployedWeatherReport",
+    "max_value": 60,
+    "requires_atmosphere": true,
+    "global_situations": [
+      "SrfLanded"
+    ]
   }
 ]
