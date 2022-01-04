@@ -1,11 +1,10 @@
 # TODO asteroid
 # TODO comet
 # TODO Where can you be 'splasheddown'
-# TODO the sun
+# TODO the sun - special cases
 
 from dataclasses import dataclass
 import importlib.resources
-import itertools
 import json
 
 import pandas as pd
